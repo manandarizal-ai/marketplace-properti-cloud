@@ -1,10 +1,44 @@
 version: '3.8'
 
 services:
-  # Kosong (Akan diisi pada Minggu 1)
+  # 1. Database (MySQL) untuk menyimpan data marketplace
+  db:
+    image: mysql:8.0
+    container_name: properti_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword_properti
+      MYSQL_DATABASE: wordpress_db
+      MYSQL_USER: wp_user
+      MYSQL_PASSWORD: wppassword_properti
+    volumes:
+      - db_data:/var/lib/mysql
+    networks:
+      - properti_network
 
-networks:
-  # Kosong (Akan diisi pada Minggu 1)
+  # 2. WordPress (Aplikasi Utama Marketplace Properti)
+  wordpress:
+    depends_on:
+      - db
+    image: wordpress:latest
+    container_name: properti_wordpress
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: wp_user
+      WORDPRESS_DB_PASSWORD: wppassword_properti
+      WORDPRESS_DB_NAME: wordpress_db
+    volumes:
+      - wp_data:/var/www/html
+    networks:
+      - properti_network
 
 volumes:
-  # Kosong (Akan diisi pada Minggu 1)
+  db_data:
+  wp_data:
+
+networks:
+  properti_network:
+    driver: bridge
