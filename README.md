@@ -12,7 +12,7 @@ Nuspan rawa mbaku <img width="1600" height="1131" alt="WhatsApp Image 2026-06-20
 
 Berikut adalah pembagian tugas dan kontribusi nyata dari ke-4 anggota kelompok dalam project ini:
 
-| No | Nama Anggota | NIM | Tugas 
+| No | Nama Anggota | NIM | 
 |:--:|:---|:---:|:---|
 | 1 | [Jefrianus bulu] | Setup Docker Compose, konfigurasi environment database MariaDB/MySQL, dan integrasi awal sistem. |
 | 2 | [M titan ananda rizal] | Konfigurasi Redis Cache, optimalisasi Object Caching pada WordPress, dan pengujian performa database. |
