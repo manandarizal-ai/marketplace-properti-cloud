@@ -10,11 +10,9 @@ Nuspan rawa mbaku <img width="1600" height="1131" alt="WhatsApp Image 2026-06-20
 
  Kontribusi Masing-Masing Anggota kelompok
 
-Berikut adalah pembagian tugas dan kontribusi nyata dari ke-4 anggota kelompok dalam project ini:
+Berikut adalah pembagian tugas dan kontribusi nyata dari ke-4 anggota kelompok dalam project ini: 
 
-| No | Nama Anggota | NIM | 
-|:--:|:---|:---:|:---|
-| 1 | [Jefrianus bulu] | Setup Docker Compose, konfigurasi environment database MariaDB/MySQL, dan integrasi awal sistem. |
-| 2 | [M titan ananda rizal] | Konfigurasi Redis Cache, optimalisasi Object Caching pada WordPress, dan pengujian performa database. |
-| 3 | [Abner tunggu landu tana] | Setup MinIO Object Storage, pembuatan bucket publik, dan konfigurasi plugin eksternal media WordPress. |
-| 4 | [Nuspan rawa mbaku] | Penyusunan laporan resmi PDF, pembuatan video demonstrasi YouTube, dan manajemen repositori GitHub kelompok. |
+| 1 | [Jefrianus bulu] Setup Docker Compose, konfigurasi environment database MariaDB/MySQL, dan integrasi awal sistem. 
+| 2 | [M titan ananda rizal]  Konfigurasi Redis Cache, optimalisasi Object Caching pada WordPress, dan pengujian performa database. 
+| 3 | [Abner tunggu landu tana] Setup MinIO Object Storage, pembuatan bucket publik, dan konfigurasi plugin eksternal media WordPress. 
+| 4 | [Nuspan rawa mbaku]  Penyusunan laporan resmi PDF, pembuatan video demonstrasi YouTube, dan manajemen repositori GitHub kelompok. 
