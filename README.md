@@ -8,3 +8,13 @@ M titan ananda Rizal <img width="2000" height="1414" alt="413_M_TITAN_ANANDA_RIZ
 Abner tunggu landu tana <img width="2000" height="1414" alt="413_Abner_Tunggu_landu_tana" src="https://github.com/user-attachments/assets/027c385f-5280-4465-9f1c-3bc0dd5ef2f1" />
 Nuspan rawa mbaku <img width="1600" height="1131" alt="WhatsApp Image 2026-06-20 at 20 46 24" src="https://github.com/user-attachments/assets/5b6d0183-f184-4a63-8fff-bfc52711ba9b" />
 
+## 👥 Kontribusi Masing-Masing Anggota kelompok
+
+Berikut adalah pembagian tugas dan kontribusi nyata dari ke-4 anggota kelompok dalam project ini:
+
+| No | Nama Anggota | NIM | Tugas & Kontribusi Nyata |
+|:--:|:---|:---:|:---|
+| 1 | [Jefrianus bulu] | Setup Docker Compose, konfigurasi environment database MariaDB/MySQL, dan integrasi awal sistem. |
+| 2 | [M titan ananda rizal] | Konfigurasi Redis Cache, optimalisasi Object Caching pada WordPress, dan pengujian performa database. |
+| 3 | [Abner tunggu landu tana] | Setup MinIO Object Storage, pembuatan bucket publik, dan konfigurasi plugin eksternal media WordPress. |
+| 4 | [Nuspan rawa mbaku] | Penyusunan laporan resmi PDF, pembuatan video demonstrasi YouTube, dan manajemen repositori GitHub kelompok. |
